@@ -1,0 +1,43 @@
+variable,definition
+roa_gvkey,"Direct same-entity Revelio GVKEY; vendor snapshot, not historical ownership."
+roa_link_status,"Direct, unmatched, ambiguous, or invalid RCID-GVKEY link."
+roa_n_gvkeys,Distinct valid GVKEYs in vendor mapping for this RCID.
+roa_link_source,roa link source
+roa_rcids_per_gvkey,Number of input RCIDs sharing this GVKEY; consider dependence in inference.
+roa_has_link,1=unambiguous direct vendor link to Compustat GVKEY.
+roa,"Net income / year-end total assets; fraction, .05=5%."
+roa_ib,Income before extraordinary items / year-end assets; fraction.
+roa_avg,Net income / mean current/prior annual assets; comparable years only.
+cs_at,"Compustat total assets, reporting-currency millions."
+cs_ni,"Compustat net income, reporting-currency millions."
+cs_ib,"Compustat income before extraordinary items, reporting-currency millions."
+cs_sale,"Compustat sales, reporting-currency millions."
+cs_lt,"Compustat total liabilities, reporting-currency millions."
+cs_fyear,Compustat fiscal-year label; may differ from calendar year.
+cs_datadate,Compustat fiscal statement end date; calendar year defines merge year.
+cs_curcd,Compustat reporting currency; ratios use same-currency financial amounts.
+cs_source,Compustat annual source table; NA preferred to Global for overlap.
+cs_at_lag,"Prior annual assets, only consecutive comparable fiscal periods."
+cs_avg_assets,Average current/prior assets in comparable consecutive annual periods.
+cs_n_reports_year,Distinct report end dates in calendar year; latest end retained.
+cs_duplicate_conflict,1=conflicting same-source/date financial records; amounts left missing.
+cs_source_disagreement,cs source disagreement
+roa_has_accounts,1=Compustat statement found ending in review calendar year.
+roa_lead1,"Next-calendar-end-year: Net income / year-end total assets; fraction, .05=5%."
+roa_ib_lead1,Next-calendar-end-year: Income before extraordinary items / year-end assets; fraction.
+roa_avg_lead1,Next-calendar-end-year: Net income / mean current/prior annual assets; comparable years only.
+cs_at_lead1,"Next-calendar-end-year: Compustat total assets, reporting-currency millions."
+cs_ni_lead1,"Next-calendar-end-year: Compustat net income, reporting-currency millions."
+cs_ib_lead1,"Next-calendar-end-year: Compustat income before extraordinary items, reporting-currency millions."
+cs_sale_lead1,"Next-calendar-end-year: Compustat sales, reporting-currency millions."
+cs_lt_lead1,"Next-calendar-end-year: Compustat total liabilities, reporting-currency millions."
+cs_fyear_lead1,Next-calendar-end-year: Compustat fiscal-year label; may differ from calendar year.
+cs_datadate_lead1,Next-calendar-end-year: Compustat fiscal statement end date; calendar year defines merge year.
+cs_curcd_lead1,Next-calendar-end-year: Compustat reporting currency; ratios use same-currency financial amounts.
+cs_source_lead1,Next-calendar-end-year: Compustat annual source table; NA preferred to Global for overlap.
+cs_at_lag_lead1,"Next-calendar-end-year: Prior annual assets, only consecutive comparable fiscal periods."
+cs_avg_assets_lead1,Next-calendar-end-year: Average current/prior assets in comparable consecutive annual periods.
+cs_n_reports_year_lead1,Next-calendar-end-year: Distinct report end dates in calendar year; latest end retained.
+cs_duplicate_conflict_lead1,Next-calendar-end-year: 1=conflicting same-source/date financial records; amounts left missing.
+cs_source_disagreement_lead1,Next-calendar-end-year: cs_source_disagreement
+roa_has_accounts_lead1,Next-calendar-end-year: 1=Compustat statement found ending in review calendar year.

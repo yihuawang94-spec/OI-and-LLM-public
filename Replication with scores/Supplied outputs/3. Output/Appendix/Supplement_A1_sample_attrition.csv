@@ -1,0 +1,14 @@
+step,criterion,remaining,removed
+0,All Wave 1 response records; excludes only Qualtrics metadata,1050,0
+1,Consented to Wave 1,1049,1
+2,Current employee at Wave 1,999,50
+3,Wave 1 marked finished,999,0
+4,Wave 1 progress equals 100 percent,999,0
+5,All original mandatory Wave 1 answers present,999,0
+6,Pros at least 25 words,999,0
+7,Cons at least 25 words,999,0
+8,Valid participant ID available,999,0
+9,Matched to a Wave 2 response,739,260
+10,Wave 1 duration: 150 <= seconds < 900,677,62
+11,Strict employer-name match between waves,447,230
+12,All six human OI items observed,446,1

@@ -1,0 +1,3 @@
+-r requirements.txt
+# SDK version recorded in the original study. Only needed for fresh Gemini calls.
+google-genai==2.22.0

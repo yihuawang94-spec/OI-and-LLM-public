@@ -1,0 +1,66 @@
+{
+  "schema": "oi-and-llm-all-responses-1",
+  "raw_files_unchanged": true,
+  "sources": {
+    "Glassdoor.csv": {
+      "sha256": "0f3a736aad20a220224d896d016d723ce829190408824e95ec516f7c4f308444",
+      "bytes": 892734
+    },
+    "Glassdoor W2.csv": {
+      "sha256": "9f08f1f9d23c2a559ab0659b89b4eb8bf8379e2fe3886a24114270f6d79e168c",
+      "bytes": 329583
+    }
+  },
+  "original_cleaner_sha256": "5a448cebd757ddf99b127df532bb5c94935c1e9589981427a6ccfa1c08a4cf16",
+  "metadata_records_in_raw": {
+    "wave1": 2,
+    "wave2": 2
+  },
+  "wave1_response_records_in_raw": 1050,
+  "wave1_response_records_in_output": 1050,
+  "wave2_response_records_in_raw": 740,
+  "wave2_response_records_in_output": 740,
+  "wave1_records_with_wave2": 739,
+  "wave2_records_without_wave1": 1,
+  "wave1_missing_pid": 0,
+  "wave2_missing_pid": 0,
+  "python_response_exclusions": 0,
+  "cleaner_diagnostic_counts": {
+    "raw_rows": 1050,
+    "consented": 1049,
+    "current_yes": 999,
+    "survey_complete": 999,
+    "analysis_eligible": 999,
+    "eligible_without_pid": 0,
+    "speed_flagged": 161,
+    "pid_source_found": 1
+  },
+  "mandatory_wave1_columns": [
+    "Q25",
+    "Q13",
+    "Q18",
+    "Q19",
+    "Size",
+    "Demographics 2",
+    "Demographics 1",
+    "Demographics 3",
+    "Q14_1",
+    "Q14_2",
+    "Q14_3",
+    "Q14_4",
+    "Q14_5",
+    "Q14_6",
+    "Q15",
+    "Q16",
+    "Q17",
+    "Q22_1"
+  ],
+  "sample_selection": "master.do sample applies all analysis restrictions and reports attrition.",
+  "notes": [
+    "No Prolific approval-list restriction.",
+    "Speed flag below 180 seconds is diagnostic only; Stata uses 150 <= duration < 900.",
+    "No Wave 2 employee, completion, progress or duration filter is newly imposed.",
+    "Both firm-match indicators are rebuilt from raw employer names and retained.",
+    "All Wave 2 records, including orphans or missing IDs, remain in Prolific_all_wave2.dta."
+  ]
+}

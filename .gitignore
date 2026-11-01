@@ -1,0 +1,40 @@
+# Python runtime files and environments.
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+venv/
+
+# Rebuilt datasets and current-run outputs. Supplied outputs remain included.
+/Replication with scores/2. Data/
+/Replication with scores/3. Output/
+/Fresh scoring/2. Data/
+/Fresh scoring/3. Output/
+
+# Exact originals restored from the tracked lossless archive.
+/Replication with scores/0. Raw/LLM_scores/fixed_examples/responses.jsonl
+/Replication with scores/0. Raw/LLM_scores/fresh_main/responses.jsonl
+
+# Fresh scoring creates its own response journals and cache records.
+/Fresh scoring/0. Raw/LLM_scores/
+
+# Licensed WRDS extracts and resumable download checkpoints.
+/Replication with scores/0. Raw/Revelio/
+/Replication with scores/0. Raw/Compustat/
+/Fresh scoring/0. Raw/Revelio/
+/Fresh scoring/0. Raw/Compustat/
+
+# Local credentials.
+.env
+.env.*
+!.env.example
+.pgpass
+.pg_service.conf
+application_default_credentials.json
+credentials.json
+service-account.json
+service_account.json
+service-account-*.json
+service_account_*.json
+*.pem
+*.key

@@ -1,0 +1,148 @@
+{
+  "format": 1,
+  "description": "Lossless storage of the original raw response files. Restore with restore_raw.py.",
+  "archive": {
+    "name": "saved-responses.zip",
+    "size_bytes": 13016841,
+    "sha256": "350bfb6d9ae6dc9d3a3d28bb9bd76424df86dc72e5cc11c2f8c6356cd0ba0414",
+    "parts": [
+      {
+        "name": "saved-responses.zip.part001",
+        "size_bytes": 524288,
+        "sha256": "a717dbe9bf97dffc5a9d0ed75fcd4433d72a7bb6b042451cf76429d3db6cfb2a"
+      },
+      {
+        "name": "saved-responses.zip.part002",
+        "size_bytes": 524288,
+        "sha256": "cf7319a6b9c885e9dd3d7cb0d7c56cc120b2dbe391545f2dbd7eafb935cf500e"
+      },
+      {
+        "name": "saved-responses.zip.part003",
+        "size_bytes": 524288,
+        "sha256": "eed081a55e7b4f88dfa560c708e2fb91450fe57d89d60fd0683e91bd2b87f237"
+      },
+      {
+        "name": "saved-responses.zip.part004",
+        "size_bytes": 524288,
+        "sha256": "8cd1abe42c33837c93b88af296a55a832707b1f3057077eb675adb1b50360f36"
+      },
+      {
+        "name": "saved-responses.zip.part005",
+        "size_bytes": 524288,
+        "sha256": "5991c94668e7ee80f0a1db10c00375b215c87840f0b620c84f5b24d6da5ff239"
+      },
+      {
+        "name": "saved-responses.zip.part006",
+        "size_bytes": 524288,
+        "sha256": "b52935a8e2559b6a064efae12806c6d59e1ebc9182117bd41b3d083f4f57df9c"
+      },
+      {
+        "name": "saved-responses.zip.part007",
+        "size_bytes": 524288,
+        "sha256": "cb00c8fe24143f352f521347d34185796f7f14b1016d8aae2e5bf61401057097"
+      },
+      {
+        "name": "saved-responses.zip.part008",
+        "size_bytes": 524288,
+        "sha256": "d765b8395c7bb3b5d3e05e2434a84716ee95e67d5dd824b4faa89fa87b9ee294"
+      },
+      {
+        "name": "saved-responses.zip.part009",
+        "size_bytes": 524288,
+        "sha256": "0daae5d297707d09a698f34f5828805fc631984851695375cd33832c28333edc"
+      },
+      {
+        "name": "saved-responses.zip.part010",
+        "size_bytes": 524288,
+        "sha256": "40107d7fc2f13ec5312f31064f3f0d2cf8452a94bfba60f918b4e67f1202da53"
+      },
+      {
+        "name": "saved-responses.zip.part011",
+        "size_bytes": 524288,
+        "sha256": "92a5f8efa6f055b1706df7e5730875a9d17b1e005cdcecc2079547dc95ea6cca"
+      },
+      {
+        "name": "saved-responses.zip.part012",
+        "size_bytes": 524288,
+        "sha256": "403ca3420cd2a02cac67e4107848213527adf9dad381531bdcb5aaf7ffd95449"
+      },
+      {
+        "name": "saved-responses.zip.part013",
+        "size_bytes": 524288,
+        "sha256": "5544b09877c29fb2addf87c0b7e35f1147368fa5a2d8c62c776102e30ca54f68"
+      },
+      {
+        "name": "saved-responses.zip.part014",
+        "size_bytes": 524288,
+        "sha256": "426823e0a97b720b0f1b31df5ff73ae17a47dc85989f8631684c0142c8b06da4"
+      },
+      {
+        "name": "saved-responses.zip.part015",
+        "size_bytes": 524288,
+        "sha256": "6a6f2cfeab99fee08d9c2a27016eee3cc254fcc51e35ecf8d480ff670d3cf114"
+      },
+      {
+        "name": "saved-responses.zip.part016",
+        "size_bytes": 524288,
+        "sha256": "3dfd9aa69479aa9c8b1cce3f651a2648f7ef47610563a2d2c596830ca0c2777e"
+      },
+      {
+        "name": "saved-responses.zip.part017",
+        "size_bytes": 524288,
+        "sha256": "450abcc1f106fcd2832fd271f6a4fc0add5770d0e6173ae284578f6995852837"
+      },
+      {
+        "name": "saved-responses.zip.part018",
+        "size_bytes": 524288,
+        "sha256": "ac6f59b527a33b5667ff8f848efe50be27ff341d679350c3bd6a5c8f14642506"
+      },
+      {
+        "name": "saved-responses.zip.part019",
+        "size_bytes": 524288,
+        "sha256": "ec6446db35b31833a03e10144a2b3ec112cd70042c00e89406c5a62ef686f87e"
+      },
+      {
+        "name": "saved-responses.zip.part020",
+        "size_bytes": 524288,
+        "sha256": "699a0fa1282a5df2ef82aa90ef2b668fc499d877037b17975b5537d26e69416f"
+      },
+      {
+        "name": "saved-responses.zip.part021",
+        "size_bytes": 524288,
+        "sha256": "09fc8f63e19c43c7c7e86bda9c9a77dbc20a29f87680e113fae36a59a673a427"
+      },
+      {
+        "name": "saved-responses.zip.part022",
+        "size_bytes": 524288,
+        "sha256": "3932a7671d4bb26a092bdf25e2c2cb3fd1cb9f1b1af41bf33743f46f1b1a70b6"
+      },
+      {
+        "name": "saved-responses.zip.part023",
+        "size_bytes": 524288,
+        "sha256": "5d83dc699413ea036dc5defb11da00001036c658b77e64864966eb5233d259a3"
+      },
+      {
+        "name": "saved-responses.zip.part024",
+        "size_bytes": 524288,
+        "sha256": "435c9024cc99f8d3c298148d761cc44ced081e2a9efc426525adcd4edd9d07ef"
+      },
+      {
+        "name": "saved-responses.zip.part025",
+        "size_bytes": 433929,
+        "sha256": "ac0c0f31291157f5f1b6f8f71d1699bf52ca3e62d3f5d7fdc7d53a353021089f"
+      }
+    ]
+  },
+  "files": [
+    {
+      "path": "0. Raw/LLM_scores/fixed_examples/responses.jsonl",
+      "size_bytes": 71027144,
+      "sha256": "d885a8eca9286b6f24b2c9bfd5519945505cd892fdc3633b550cf81c6f46c474"
+    },
+    {
+      "path": "0. Raw/LLM_scores/fresh_main/responses.jsonl",
+      "size_bytes": 43054007,
+      "sha256": "6fb16c6131970305f65ec89e88b73ed24e2d57a1eac52ac446ddabad7935588e"
+    }
+  ]
+}

@@ -1,0 +1,73 @@
+variable,definition
+rcid,"Revelio firm identifier, same entity level in reviews and workforce; no parent rollup."
+year,"Calendar year of the review, or of the workforce record in workforce_firmyear."
+company,One source company name per review firm-year (lexicographic MAX; descriptive only).
+n_reviews,"All eligible reviews, including any with empty selected text fields."
+n_nis_reviews,Eligible reviews with at least one word in the selected text fields.
+n_words,Total whitespace-delimited words in selected review fields.
+n_fpp,Total whole-word we/us/our/ours/ourselves occurrences (audit component).
+n_tpp,Total whole-word they/them/their/theirs/themselves occurrences (audit component).
+nis_2,Unweighted mean of review-level (FPP - TPP) / words; empty texts excluded.
+n_reviews_rf,"All eligible reviews, including any with empty selected text fields. Uses only reviewer seniority grades 1-4."
+n_nis_reviews_rf,Eligible reviews with at least one word in the selected text fields. Uses only reviewer seniority grades 1-4.
+n_words_rf,Total whitespace-delimited words in selected review fields. Uses only reviewer seniority grades 1-4.
+n_fpp_rf,Total whole-word we/us/our/ours/ourselves occurrences (audit component). Uses only reviewer seniority grades 1-4.
+n_tpp_rf,Total whole-word they/them/their/theirs/themselves occurrences (audit component). Uses only reviewer seniority grades 1-4.
+nis_2_rf,Unweighted mean of review-level (FPP - TPP) / words; empty texts excluded. Uses only reviewer seniority grades 1-4.
+overall_rating,Mean of eligible reviewers' 1-5 rating; invalid/missing codes excluded.
+n_overall_rating,Number of eligible reviews with a valid value for overall_rating.
+rating_culture,Mean of eligible reviewers' 1-5 rating; invalid/missing codes excluded.
+n_rating_culture,Number of eligible reviews with a valid value for rating_culture.
+rating_career,Mean of eligible reviewers' 1-5 rating; invalid/missing codes excluded.
+n_rating_career,Number of eligible reviews with a valid value for rating_career.
+rating_compensation,Mean of eligible reviewers' 1-5 rating; invalid/missing codes excluded.
+n_rating_compensation,Number of eligible reviews with a valid value for rating_compensation.
+rating_leadership,Mean of eligible reviewers' 1-5 rating; invalid/missing codes excluded.
+n_rating_leadership,Number of eligible reviews with a valid value for rating_leadership.
+rating_worklife,Mean of eligible reviewers' 1-5 rating; invalid/missing codes excluded.
+n_rating_worklife,Number of eligible reviews with a valid value for rating_worklife.
+rating_diversity,Mean of eligible reviewers' 1-5 rating; invalid/missing codes excluded.
+n_rating_diversity,Number of eligible reviews with a valid value for rating_diversity.
+ceo_approval,"Mean mapped category: positive/yes/approve=1, neutral/no opinion=0.5, negative/no/disapprove=0; unknown codes missing."
+n_ceo_approval,Number of eligible reviews with a valid value for ceo_approval.
+recommend,"Mean mapped category: positive/yes/approve=1, neutral/no opinion=0.5, negative/no/disapprove=0; unknown codes missing."
+n_recommend,Number of eligible reviews with a valid value for recommend.
+business_outlook,"Mean mapped category: positive/yes/approve=1, neutral/no opinion=0.5, negative/no/disapprove=0; unknown codes missing."
+n_business_outlook,Number of eligible reviews with a valid value for business_outlook.
+seniority_mean,Mean reviewer seniority grade (1-7); not an annual employee census.
+n_seniority_mean,Number of eligible reviews with a valid value for seniority_mean.
+tenure_mean,Mean reviewer reported tenure in years; values outside 0-100 treated as missing.
+n_tenure_mean,Number of eligible reviews with a valid value for tenure_mean.
+nis_1,Pooled-word NIS: (total FPP - total TPP) / total whitespace-delimited words.
+nis_1_rf,Pooled-word NIS: (total FPP - total TPP) / total whitespace-delimited words. Uses only reviewer seniority grades 1-4.
+months_scope,Distinct months with at least one workforce cell in the selected population.
+months_hc,Months with nonmissing nonnegative headcount in every supplied scope cell.
+months_outflow,Months with nonmissing nonnegative external outflow in every supplied scope cell.
+months_inflow,Months with nonmissing nonnegative external inflow in every supplied scope cell.
+months_global_hc,Months with valid nonnegative headcount in every supplied global cell.
+headcount_avg_obs,Mean scope headcount over observed valid months; may describe a partial year.
+global_hc_avg_obs,Mean global headcount over observed valid months; may describe a partial year.
+external_outflow_obs,Sum of valid scope monthly external outflows; may describe a partial year.
+external_inflow_obs,Sum of valid scope monthly external inflows; may describe a partial year.
+first_month_scope,First observed calendar month in the selected workforce population.
+last_month_scope,Last observed calendar month in the selected workforce population.
+complete_turnover_year,"1 = 12 scope months, each with valid headcount and external outflow."
+headcount_avg,"Mean monthly scope headcount, only with 12 valid months."
+global_headcount_avg,"Mean monthly global headcount, only with 12 valid months."
+external_outflow,"Annual external departures, only with 12 valid outflow months."
+external_inflow,"Annual external hires, only with 12 valid inflow months."
+turnover,Annual external departures / mean monthly headcount; complete years and positive denominator only.
+turnover_pct,100 times turnover; the separate turnover variable is a fraction.
+hiring_rate,Annual external inflow / mean monthly headcount; complete valid months only.
+has_workforce_row,1 = this review firm-year has a workforce extract row; 0 = unmatched.
+turnover_lead1,Annual external departures / mean monthly headcount; complete years and positive denominator only. Measured in exact calendar year t+1 relative to reviews.
+turnover_pct_lead1,100 times turnover; the separate turnover variable is a fraction. Measured in exact calendar year t+1 relative to reviews.
+headcount_avg_lead1,"Mean monthly scope headcount, only with 12 valid months. Measured in exact calendar year t+1 relative to reviews."
+external_outflow_lead1,"Annual external departures, only with 12 valid outflow months. Measured in exact calendar year t+1 relative to reviews."
+complete_turnover_year_lead1,"1 = 12 scope months, each with valid headcount and external outflow. Measured in exact calendar year t+1 relative to reviews."
+eligible_nis,1 = n_nis_reviews >= configured threshold and pooled NIS observed; flag only.
+eligible_sameyear,1 = eligible NIS and observed same-year turnover/headcount above threshold.
+eligible_lead1,eligible Measured in exact calendar year t+1 relative to reviews.
+workforce_firm,1 = review firm included in the workforce query; no review-count threshold.
+naics_code,NAICS code from Revelio company_mapping (modal code over the firm's rows); empty if unmapped.
+naics_n_codes,Distinct NAICS codes on the firm's company_mapping rows (1 = unambiguous).

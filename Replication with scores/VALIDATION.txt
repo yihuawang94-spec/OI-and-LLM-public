@@ -1,0 +1,47 @@
+CHECKS COMPLETED, 30 OCTOBER 2026
+
+The raw CSV checksums match the supplied files exactly. The reconstructed all-row
+survey files contain 1,050 Wave 1 and 740 Wave 2 responses. Independent application
+of the Stata selection conditions selects the same 446 IDs as the uploaded DTA.
+The reconstructed review text, six human OI items, outcomes, demographic controls,
+six correlates and both firm-match indicators match the uploaded analysis values
+exactly. The all-row and exclusion-audit outputs retain excluded responses.
+
+The new exporter verified the original response journals, prompts, text hashes,
+request hashes, fold assignments, frozen ordered banks and reported model version.
+All 26,760 full-scale predictions and all 160,560 item scores match the supplied
+all_conditions_long.dta exactly, including after DTA serialization. No accepted
+response was discarded, rescored or altered for this package.
+
+Independent NumPy OLS calculations with HC1 covariance and Student-t p-values
+reproduce the main current numerical results. Illustrations for averaged scores:
+                Human OI r   Controlled beta   Turnover r   Controlled beta
+NIS                 .157282       .105347       -.113756      -.077123
+OILLM_0             .521997       .307322       -.421542      -.114940
+OILLM_30            .455633       .193859       -.430831      -.117220
+OILLM_100           .486882       .246173       -.444256      -.135212
+OILLM_200           .496065       .262437       -.456955      -.158002
+OILLM_300           .496959       .259997       -.454892      -.156642
+These values are checks, not substitute Python regression outputs in the workflow.
+The replication package contains a reference CSV and an optional Stata comparison
+file under 1. Analysis/tests. They are absent from the fresh-scoring package.
+
+Synthetic tests confirm that accepted fresh responses survive an interrupted run,
+restarting only submits pending requests, recreated caches contain identical bank
+text, completed requests are not resent, and zero-example prompts contain no bank.
+Parser tests reject malformed, missing and out-of-range item responses. A truncated
+final journal line is recoverable; a corrupt committed line is rejected.
+
+The retained WRDS scripts pass offline tests of NIS counting/aggregation, workforce
+coverage/cache checks, calendar leads, missing values, direct/ambiguous Compustat
+links, losses/zero assets, fiscal-year alignment and DTA round trips.
+
+LIMITS OF THESE CHECKS
+
+Stata is unavailable in the build environment. The do-files were statically
+reviewed, but the Stata regressions, table rendering and graph rendering have NOT
+been executed here. The independent numerical checks do not replace a Stata run.
+No live WRDS or Gemini calls were made. Each user's licensed WRDS download may
+reflect later vendor revisions. Fresh model availability/latency and new replies
+cannot be guaranteed by the offline checks. Cost rates are explicit inherited
+scenario assumptions; the missing lower-model price requires a documented quote.

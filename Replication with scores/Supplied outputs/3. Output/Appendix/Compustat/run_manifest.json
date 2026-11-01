@@ -1,0 +1,47 @@
+{
+  "version": "oi_llm_fresh_compustat_2.0.0",
+  "status": "complete",
+  "started_at": "2026-11-01T11:56:54.854725+00:00",
+  "input_path": "C:\\Users\\rwang\\Downloads\\OI and LLM\\Replication with scores\\2. Data\\analysis_nis_turnover.dta",
+  "input_bytes_sha256": "0c3d2920ceb29eed8e6cd4d9acdc8c49b168b03502d4ff03e122fe06ec27355c",
+  "input_rows": 1462694,
+  "input_firms": 548542,
+  "account_end_years": [
+    2007,
+    2027
+  ],
+  "formulas": {
+    "roa": "ni/at",
+    "roa_ib": "ib/at",
+    "roa_avg": "ni/mean(at,current/prior comparable year)"
+  },
+  "alignment": "calendar year of fiscal end datadate; exact t+1 for lead1",
+  "thresholds_applied": false,
+  "link_method": "same-RCID direct GVKEY, current vendor snapshot",
+  "parent_substitution": false,
+  "winsorization": false,
+  "refresh": false,
+  "finished_at": "2026-11-01T11:58:07.563056+00:00",
+  "output_path": "C:\\Users\\rwang\\Downloads\\OI and LLM\\Replication with scores\\2. Data\\analysis_nis_roa.dta",
+  "output_rows": 1462694,
+  "linked_firms": 14283,
+  "unique_gvkeys": 14283,
+  "roa_nonmissing": 43839,
+  "roa_lead1_nonmissing": 40196,
+  "mapping_table": "revelio_common.company_mapping",
+  "sources": [
+    {
+      "region": "NA",
+      "schema": "comp",
+      "table": "funda",
+      "priority": 0,
+      "filters": {
+        "indfmt": "INDL",
+        "consol": "C",
+        "datafmt": "STD",
+        "popsrc": "D"
+      }
+    }
+  ],
+  "unavailable_products": []
+}

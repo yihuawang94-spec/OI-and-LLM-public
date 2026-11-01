@@ -1,0 +1,21 @@
+main_text_order,label,output_path_or_stem,purpose,analysis_file
+1,Table A1,3. Output/Appendix/Table_A1_human_OI_basic.rtf,Human OI on each proxy; no controls,10_main_results.do
+2,Table A2,3. Output/Appendix/Table_A2_human_OI_controlled.rtf,Human OI on each proxy; demographics and six correlates,10_main_results.do
+3,Figure A1,3. Output/Main/Figure_A1_human_OI_correlation,Human OI correlations; averaged scores and all iterations,10_main_results.do
+4,Figure A2,3. Output/Main/Figure_A2_human_OI_beta,Human OI standardized fully controlled coefficients,10_main_results.do
+5,Table A3,3. Output/Appendix/Table_A3_turnover_intentions_basic.rtf,Turnover intentions on each proxy; no controls,10_main_results.do
+6,Table A4,3. Output/Appendix/Table_A4_turnover_intentions_controlled.rtf,Turnover intentions on each proxy; demographics and six correlates,10_main_results.do
+7,Figure A3,3. Output/Main/Figure_A3_turnover_correlation,Turnover intentions correlations,10_main_results.do
+8,Figure A4,3. Output/Main/Figure_A4_turnover_beta,Turnover intentions standardized fully controlled coefficients,10_main_results.do
+9,Table A5,3. Output/Appendix/Table_A5_turnover_controlling_human_OI.rtf,Standalone joint human OI/proxy turnover models,11_turnover_benchmark.do
+10,Table A6.1,3. Output/Appendix/Table_A6_1_actual_turnover.rtf,Actual next-year turnover; current supplied FE specification,20_turnover_actual.do
+11,Table A6.2,3. Output/Appendix/Table_A6_2_ROA.rtf,Next-year ROA; current supplied FE specification,21_roa.do
+12,Table A7,3. Output/Appendix/Table_A7_cost.rtf,Full-extract and annual-cutoff token-cost scenarios (GPT-6 Luna and Gemini 3.8 Flash batch); also CSV,22_costs.do
+,Sample flow,3. Output/Appendix/Supplement_A1_sample_attrition.csv,Every explicit exclusion; all raw responses preserved,02_select_sample.do
+,Fixed protocol,0. Raw/Study/,"Exact instructions, response schema and original fold/bank IDs",03_scores.py
+,Reproducibility,3. Output/Appendix/Supplement_A3_association_stability.csv,"r/beta mean, SD and ranges; primary and iteration p-values",12_appendix_diagnostics.do
+,Iteration results,3. Output/Appendix/Supplement_A3_individual_iterations.csv,All individual r/beta/p estimates,12_appendix_diagnostics.do
+,Variable stability,3. Output/Appendix/Supplement_A3_score_stability.rtf,Between- and within-person score variation; also CSV,12_appendix_diagnostics.do
+,Prediction error,3. Output/Appendix/Supplement_A4_MAE.rtf,"MAE, signed error and RMSE on original 1-7 scale; also CSV",12_appendix_diagnostics.do
+,Human benchmark,3. Output/Appendix/Supplement_A5_human_OI_benchmark.rtf,Controls-only and controls plus human OI,11_turnover_benchmark.do
+,Token audit,3. Output/Appendix/Supplement_A7_observed_tokens.csv,Recorded usage and extent of missing usage metadata,22_costs.do

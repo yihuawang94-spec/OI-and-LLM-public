@@ -1,0 +1,16 @@
+{
+  "0. Raw/Glassdoor W2.csv": "e4d459bd172fb1f7c728e3a5156f8d9b28c4df46f354971cacae0b86efd5eeef",
+  "0. Raw/Glassdoor.csv": "02ba59c25c608248cdbfc3f028aa4d1bb30fc17a3eda88a4e63d6bd2bae4b939",
+  "0. Raw/LLM_scores/fixed_examples/cache_events.jsonl": "9d908b907f2a53f9ef04ba5380aee4e472a29da2ae7d6e03309826bdc565e34f",
+  "0. Raw/LLM_scores/fixed_examples/manifest.json": "5e8ad2ab22fad2553e610c31d34a6b4f184b86ffcf9a0fbbf090f250826f8728",
+  "0. Raw/LLM_scores/fixed_examples/responses.jsonl": "d885a8eca9286b6f24b2c9bfd5519945505cd892fdc3633b550cf81c6f46c474",
+  "0. Raw/LLM_scores/fresh_main/endpoint_sessions.jsonl": "25cb190df4bad3ae1c3acd137970d2d1326dc083c79ecacb382de6f22807f279",
+  "0. Raw/LLM_scores/fresh_main/latest_input_provenance.json": "663caee442dbeef0326645a9fa653d11ff34351f7238608c3126f61be98e2d88",
+  "0. Raw/LLM_scores/fresh_main/manifest.json": "9389678a3f1d5f671153620b79700a7d2f2ee5176996e83923bbf2af4d003372",
+  "0. Raw/LLM_scores/fresh_main/model_version_lock.json": "f2f256600a43c1c82421a04b3b1b35215551fdde0e11296e2b9b1f1d7100565d",
+  "0. Raw/LLM_scores/fresh_main/responses.jsonl": "6fb16c6131970305f65ec89e88b73ed24e2d57a1eac52ac446ddabad7935588e",
+  "0. Raw/Study/folds_and_banks.json": "84f0b89d894b377e8e1a52ad812dce05c745e05587b442b72a140b5827327576",
+  "0. Raw/Study/prompt_0.txt": "dddf1bd04af932315f0c267b17e35001e9da72ea4736b2e7e57a8d8bc11e7eb5",
+  "0. Raw/Study/prompt_examples.txt": "ce2c2720beb0cc12c8ceec4ed79b75c0810cdc1e89e226ad668a549c41c2f7f6",
+  "0. Raw/Study/response_schema.json": "43f446a5547f4cf770ce377d0cbbe657aadecb983c1deaf9b82effbb714e93d5"
+}

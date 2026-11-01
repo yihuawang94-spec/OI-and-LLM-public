@@ -1,0 +1,4 @@
+# Preparation, saved-score replication and WRDS. Python 3.10+.
+numpy>=1.26,<3
+pandas>=2.2,<3
+wrds>=3.2,<4

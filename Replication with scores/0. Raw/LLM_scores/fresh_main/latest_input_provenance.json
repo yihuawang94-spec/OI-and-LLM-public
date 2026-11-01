@@ -1,0 +1,12 @@
+{
+  "selected_dta_sha256": "b7e736a6728a3bf6597925dd78f3eb239a8174c9e861934a13110553843f0788",
+  "protocol_hash": "97920c4ad0a9bc8ebfb464615ec9975859ab78e080c1ada57e415ccdbd35aafa",
+  "utc": "2026-10-22T12:50:40.768620+00:00",
+  "original_endpoint": "eu",
+  "requested_endpoint": "eu",
+  "execution_stage": "main",
+  "first_requested_run": 1,
+  "last_requested_zero_shot_run": 20,
+  "stage_planned_requests": 10704,
+  "semantic_rule": "Frozen selected IDs, review texts, human labels, folds, banks, prompts and settings; endpoint changes logged separately"
+}

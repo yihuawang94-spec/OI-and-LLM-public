@@ -1,0 +1,151 @@
+{
+  "type": "OBJECT",
+  "properties": {
+    "item1": {
+      "type": "OBJECT",
+      "properties": {
+        "score": {
+          "type": "INTEGER",
+          "minimum": 1,
+          "maximum": 7
+        },
+        "confidence": {
+          "type": "INTEGER",
+          "minimum": 0,
+          "maximum": 100
+        },
+        "no_evidence": {
+          "type": "BOOLEAN"
+        }
+      },
+      "required": [
+        "score",
+        "confidence",
+        "no_evidence"
+      ]
+    },
+    "item2": {
+      "type": "OBJECT",
+      "properties": {
+        "score": {
+          "type": "INTEGER",
+          "minimum": 1,
+          "maximum": 7
+        },
+        "confidence": {
+          "type": "INTEGER",
+          "minimum": 0,
+          "maximum": 100
+        },
+        "no_evidence": {
+          "type": "BOOLEAN"
+        }
+      },
+      "required": [
+        "score",
+        "confidence",
+        "no_evidence"
+      ]
+    },
+    "item3": {
+      "type": "OBJECT",
+      "properties": {
+        "score": {
+          "type": "INTEGER",
+          "minimum": 1,
+          "maximum": 7
+        },
+        "confidence": {
+          "type": "INTEGER",
+          "minimum": 0,
+          "maximum": 100
+        },
+        "no_evidence": {
+          "type": "BOOLEAN"
+        }
+      },
+      "required": [
+        "score",
+        "confidence",
+        "no_evidence"
+      ]
+    },
+    "item4": {
+      "type": "OBJECT",
+      "properties": {
+        "score": {
+          "type": "INTEGER",
+          "minimum": 1,
+          "maximum": 7
+        },
+        "confidence": {
+          "type": "INTEGER",
+          "minimum": 0,
+          "maximum": 100
+        },
+        "no_evidence": {
+          "type": "BOOLEAN"
+        }
+      },
+      "required": [
+        "score",
+        "confidence",
+        "no_evidence"
+      ]
+    },
+    "item5": {
+      "type": "OBJECT",
+      "properties": {
+        "score": {
+          "type": "INTEGER",
+          "minimum": 1,
+          "maximum": 7
+        },
+        "confidence": {
+          "type": "INTEGER",
+          "minimum": 0,
+          "maximum": 100
+        },
+        "no_evidence": {
+          "type": "BOOLEAN"
+        }
+      },
+      "required": [
+        "score",
+        "confidence",
+        "no_evidence"
+      ]
+    },
+    "item6": {
+      "type": "OBJECT",
+      "properties": {
+        "score": {
+          "type": "INTEGER",
+          "minimum": 1,
+          "maximum": 7
+        },
+        "confidence": {
+          "type": "INTEGER",
+          "minimum": 0,
+          "maximum": 100
+        },
+        "no_evidence": {
+          "type": "BOOLEAN"
+        }
+      },
+      "required": [
+        "score",
+        "confidence",
+        "no_evidence"
+      ]
+    }
+  },
+  "required": [
+    "item1",
+    "item2",
+    "item3",
+    "item4",
+    "item5",
+    "item6"
+  ]
+}

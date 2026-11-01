@@ -1,0 +1,26 @@
+SAVED RAW RESPONSE LOGS
+
+The two responses.jsonl files are stored in a lossless ZIP archive under
+Raw response archive. The ZIP is split into 512 KiB parts for transfer.
+For public release, participant IDs were replaced with codes and the protocol
+hashes recomputed (see the repository README). Every reply is as recorded.
+
+Run master.py as described in README.txt. It restores missing response logs
+automatically before starting the requested stage. To restore them on their
+own, run this command in the package folder:
+
+    python restore_raw.py
+
+The helper needs only Python's standard library. Keep every archive part and
+manifest.json in Raw response archive. The helper checks each part, the whole
+archive, and each restored file against their recorded sizes and SHA256 hashes.
+It verifies temporary files before placing the originals at their expected
+paths. It leaves existing originals unchanged. If an existing file differs
+from the saved original, the helper stops and leaves that file untouched.
+
+The original paths are:
+    0. Raw/LLM_scores/fixed_examples/responses.jsonl
+    0. Raw/LLM_scores/fresh_main/responses.jsonl
+
+This package contains the archive and helper it needs; the Fresh scoring
+package remains independent and starts with an empty scoring cache.

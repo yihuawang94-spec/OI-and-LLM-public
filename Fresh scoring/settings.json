@@ -1,0 +1,79 @@
+{
+  "package_mode": "fresh",
+  "iterations": {
+    "0": 20,
+    "30": 10,
+    "100": 10,
+    "200": 10,
+    "300": 10
+  },
+  "stata_executable": "",
+  "scoring": {
+    "model": "gemini-3.8-flash",
+    "google_cloud_project": "",
+    "location": "eu",
+    "api_version": "v1",
+    "google_genai_version": "2.22.0",
+    "thinking_level": "LOW",
+    "max_output_tokens": 2000,
+    "timeout_seconds": 300,
+    "max_attempts": 3,
+    "heartbeat_seconds": 30,
+    "cache_ttl_seconds": 3600,
+    "consecutive_error_limit": 5
+  },
+  "wrds": {
+    "username": "",
+    "start_year": 2008,
+    "end_year": 2026,
+    "workforce_scope": "US",
+    "include_global_compustat": false,
+    "refresh": false
+  },
+  "analysis": {
+    "expected_n": 446,
+    "min_reviews_per_firm_year": 20,
+    "turnover_controls": "hiring_rate ln_headcount ln_reviews turnover",
+    "roa_controls": "ln_assets leverage ln_reviews roa_w",
+    "demographics": "i.gender i.ethnicity c.age",
+    "correlates": "overall_rating rating_culture ceo_approval recommend seniority tenure_years",
+    "roa_winsor_percentiles": [
+      1,
+      99
+    ]
+  },
+  "graphs": {
+    "oi_r": [
+      0,
+      0.6,
+      0.1
+    ],
+    "oi_beta": [
+      0,
+      0.4,
+      0.1
+    ],
+    "turnover_r": [
+      -0.5,
+      0,
+      0.1
+    ],
+    "turnover_beta": [
+      -0.2,
+      0,
+      0.05
+    ]
+  },
+  "cost": {
+    "scoring_iterations": 1,
+    "input_usd_per_million_low": 0.05,
+    "output_usd_per_million_low": 0.25,
+    "input_usd_per_million_high": 0.375,
+    "output_usd_per_million_high": 1.875,
+    "overhead_fraction": 0.1,
+    "reviews_per_minute_low": 65,
+    "reviews_per_minute_high": 130,
+    "hours_per_day": 24,
+    "note": "Low price fields: GPT-6 Luna Batch API rates (https://developers.openai.com/api/docs/pricing). High price fields: Gemini 3.8 Flash Batch API rates (https://ai.google.dev/gemini-api/docs/pricing). Both accessed 1 November 2026. Gemini's listed rates double on 1 January 2027. The throughput fields are retained for settings validation and are not used by 22_costs.do."
+  }
+}
